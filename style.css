@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html,body,.back{
+width: 100%;
+height: 100%;
+background-color: rgb(235, 235, 235);
+overflow-x: hidden; /* Hide vertical scrollbar */
+}
+nav{
+    /* max-width: 100vw; */
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid red; */
+    padding: 0% 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+nav>img{
+    height: inherit;
+}
+nav>.links{
+    /* width: 30%; */
+    display: flex;
+    justify-content: space-between;
+}
+nav>.links> a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: rgb(191, 2, 2);
+
+}
+.links>button{
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(191, 2, 2);
+}
+
+.carousel .carousel-item {
+    height: 700px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 700px;
+  }
+  .locationbar{
+      width: 100%;
+      height: 50px;
+      background-color: rgb(191, 2, 2);
+  }
+  .locationbar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.lovationicon{
+    color: white;
+}
+.search{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.search>input[type=text]{
+    width: 500px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px 50px 10px 10px;
+    box-shadow: 0px 3px 5px -4px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search>i{
+    position: relative;
+    left: -50px;
+    cursor: pointer;
+}
+.chardham>img{
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#sizeadjust{
+    width: 100%;
+}
+.h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: center;
+    
+
+}
+.textred{
+    color:rgb(191, 2, 2) ;
+}
+.placecontainer{
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+.plccard{
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    /* background-color: rgb(251, 0, 0);
+    border: 1px solid black; */
+    box-shadow: 2px 3px 5px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+.plccard:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.517);
+}
+.plccard>p{
+    padding: 10px;
+}
+.formfill{
+    width: 100vw;
+    background-color: aliceblue;
+    padding: 20px;
+    
+}
+.inputbox{
+    width: inherit;
+    margin: 10px 10px;
+
+}
+.inputfild{
+    width: 300px;
+    padding: 3px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+    box-shadow: 2px 3px 5px -4px rgba(0,0,0,0.75);
+    border-radius:3px ;
+}
+.allforminput{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerBox{
+    margin-left: 5vw;
+    width: 28vw;
+    height: inherit;
+    /* background-color: rgb(39, 39, 39); */
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.footerhead{
+    color: rgb(255, 204, 0);
+}
+@media (max-width: 450px){
+   nav>img{
+       height: 40px;
+   }
+   .footerhead{
+       font-size: medium;
+   }
+
+}
+
+/* nokri.com */
+
+/* 9319503428 */
